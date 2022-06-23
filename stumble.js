@@ -105,7 +105,7 @@ function stageRequest(authorization, round) {
                 Authorization: JSON.stringify(authorization),
                 use_response_compression: true,
                 "Accept-Encoding": "gzip",
-                "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; Redmi 7 MIUI/V11.0.7.0.PFLMIXM)",
+                "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; Realme c11 rmx2185)",
             }
         })
             .then((response) => {
