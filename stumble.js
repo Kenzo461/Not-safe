@@ -105,7 +105,7 @@ function stageRequest(authorization, round) {
                 Authorization: JSON.stringify(authorization),
                 use_response_compression: true,
                 "Accept-Encoding": "gzip",
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+                "User-Agent": "Mozilla/5.0 (Linux; U; Android 2.3.6; ar-gb; GT-S5830i Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/E7FBAF",
             }
         })
             .then((response) => {
