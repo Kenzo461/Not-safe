@@ -8,7 +8,7 @@ const questions = [
         type: "input",
         name: "authorization",
         message: color("Authorization keys:"),
-        prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
+        prefix: `${color("[", "rainbowBright")}+${color("]", "rainbowBright")}`,
         suffix: "~",
         validate: function (input) {
             const done = this.async();
